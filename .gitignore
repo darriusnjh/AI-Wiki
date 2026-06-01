@@ -1,0 +1,72 @@
+# Obsidian workspace state
+.obsidian/workspace*.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/logs/
+.trash/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary outputs
+tmp/
+temp/
+.tmp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+
+# Caches
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# JavaScript and build artifacts
+node_modules/
+dist/
+build/
+.next/
+.vite/
+coverage/
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Large generated artifacts unless intentionally tracked
+artifacts/
+exports/
+generated/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.parquet
+*.arrow
+*.sqlite
+*.db
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
