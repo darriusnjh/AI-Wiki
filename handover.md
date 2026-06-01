@@ -15,6 +15,8 @@ This folder was not previously a Git repository. Git has now been initialized.
 The pre-existing `.obsidian/` directory was not modified.
 
 The GitHub remote target is `https://github.com/darriusnjh/AI-Wiki.git`.
+The initial wiki scaffold was committed as
+`2498efc Initialize central AI research wiki` and pushed to `origin/main`.
 
 ## Recent Changes
 
@@ -27,6 +29,7 @@ The GitHub remote target is `https://github.com/darriusnjh/AI-Wiki.git`.
   `.gitkeep` markers in empty directories.
 - Prepared the repository for publishing to
   `https://github.com/darriusnjh/AI-Wiki.git`.
+- Pushed the initial wiki scaffold to `origin/main`.
 
 ## Files Touched
 
@@ -57,6 +60,8 @@ The GitHub remote target is `https://github.com/darriusnjh/AI-Wiki.git`.
   modified during setup.
 - `git ls-remote https://github.com/darriusnjh/AI-Wiki.git` returned
   successfully with no refs, indicating the remote exists and appears empty.
+- `git push -u origin main` succeeded and set local `main` to track
+  `origin/main`.
 
 ## Failed Attempts
 
@@ -76,7 +81,6 @@ The GitHub remote target is `https://github.com/darriusnjh/AI-Wiki.git`.
 
 - Place the first source in `raw/inbox/`.
 - Ask for a one-source ingest.
-- Review and commit the setup files.
 - Decide whether to track any `.obsidian/` vault configuration files.
 
 ## Notes For Fresh Agents

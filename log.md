@@ -40,3 +40,20 @@
   - Review whether any `.obsidian/` vault configuration should be tracked.
   - Add the first source to `raw/inbox/` and run the first ingest.
 - Recommended commit message: `Initialize central AI research wiki`
+
+## [2026-06-01] setup | Confirm GitHub Repository Push
+
+- Scope: Confirmed the initialized wiki repository was pushed to
+  `https://github.com/darriusnjh/AI-Wiki.git`.
+- Sources: No research sources ingested.
+- Pages changed: `log.md`, `handover.md`.
+- Key decisions:
+  - Keep the initial wiki scaffold commit as
+    `2498efc Initialize central AI research wiki`.
+  - Record repository initialization status in the wiki metadata with a small
+    follow-up commit.
+  - Keep `.obsidian/` untracked for now.
+- Follow-ups:
+  - Decide whether to track or ignore remaining `.obsidian/` config files.
+  - Add the first source to `raw/inbox/` and run the first ingest.
+- Recommended commit message: `Record GitHub repository initialization`
